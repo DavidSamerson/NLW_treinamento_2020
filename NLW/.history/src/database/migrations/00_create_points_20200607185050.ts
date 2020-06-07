@@ -13,10 +13,10 @@ export async function up(knex : Knex) {
         table.decimal('latitude').notNullable();
         table.decimal('longitude').notNullable();
     });
-}
+};
 
 export async function down(knex : Knex) {
     //voltar atrás
     return knex.schema.dropTable('points');
 
-}
+};
