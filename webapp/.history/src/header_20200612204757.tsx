@@ -8,7 +8,7 @@ interface HeaderProps {
 const Header : React.FC<HeaderProps> = (props) => {
     return (
         <div>
-            <h1>{props.title}</h1>
+            <h1>titulo:{props.title} ECOLETA</h1>
         </div>
     );
 }

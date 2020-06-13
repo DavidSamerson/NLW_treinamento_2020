@@ -7,7 +7,7 @@ import Header from './header';
 function App() {
 
 const [counter, setCounter] = useState(0); //[valor do estado / função para atualizar o valor do estado]
-//Estado e Imutabilidade
+//Imutabilidade
 
 function handleButton(){
     setCounter(counter + 1);
@@ -25,6 +25,5 @@ function handleButton(){
     </div>
   );
 }
-// <Header title={`ECOLETA ${counter}`}/> -----> Passando variaveis via HTML
 
 export default App;

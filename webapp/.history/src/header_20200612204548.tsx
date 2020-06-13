@@ -5,10 +5,10 @@ interface HeaderProps {
 }
 
 
-const Header : React.FC<HeaderProps> = (props) => {
+const Header : React.FC = () => {
     return (
         <div>
-            <h1>{props.title}</h1>
+            <h1>ECOLETA</h1>
         </div>
     );
 }
