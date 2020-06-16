@@ -1,32 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
+import Header from './header';
 
-import Home from './pages/Home';
 //JSX -> sintaxe de xml dentro do javascript
-
 
 function App() {
 
-  return (
-    <div>
-        <Home />
-    </div>
-  );
-}
-
-export default App;
-
-//import React, {useState} from 'react';
-//import Header from './header';
-
-
-/*const [counter, setCounter] = useState(0); //[valor do estado / função para atualizar o valor do estado]
+const [counter, setCounter] = useState(0); //[valor do estado / função para atualizar o valor do estado]
 //Estado e Imutabilidade
 
 function handleButton(){
     setCounter(counter + 1);
-} */
+}
 
+  return (
+    <div>
+        
+    </div>
+  );
+}
 // <Header title={`ECOLETA ${counter}`}/> -----> Passando variaveis via HTML
 
 /*<Header title="ECOLETA 1"/>
@@ -36,3 +28,5 @@ function handleButton(){
 
         <h1>{counter}</h1>
         <button type="button" onClick={handleButton}>Aumentar</button> */
+
+export default App;

@@ -1,20 +1,17 @@
 import React from 'react';
 import './App.css';
 
-import Home from './pages/Home';
 //JSX -> sintaxe de xml dentro do javascript
-
 
 function App() {
 
+
   return (
     <div>
-        <Home />
+        Hello Word
     </div>
   );
 }
-
-export default App;
 
 //import React, {useState} from 'react';
 //import Header from './header';
@@ -36,3 +33,5 @@ function handleButton(){
 
         <h1>{counter}</h1>
         <button type="button" onClick={handleButton}>Aumentar</button> */
+
+export default App;
