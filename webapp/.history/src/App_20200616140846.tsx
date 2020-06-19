@@ -4,8 +4,6 @@ import './App.css';
 import Home from './pages/Home';
 import CreatePoint from './pages/CreatePoint';
 
-import Routes from './routes';
-
 //JSX -> sintaxe de xml dentro do javascript
 
 
@@ -13,7 +11,7 @@ function App() {
 
   return (
     <div>
-        <Routes />
+        <Home />
     </div>
   );
 }
